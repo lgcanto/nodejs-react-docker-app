@@ -12,6 +12,7 @@ RUN npm install
 
 COPY --chown=node:node . .
 
+# for running container on local machine
 EXPOSE 8080
 
 CMD [ "node", "src/app.js" ]
