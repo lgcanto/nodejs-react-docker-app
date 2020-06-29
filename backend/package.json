@@ -1,14 +1,20 @@
 {
-    "name": "backend",
-    "version": "1.0.0",
-    "description": "nodejs image demo",
-    "author": "lgcanto <lucascanto@poli.ufrj.com>",
-    "main": "src/app.js",
-    "keywords": [
-      "nodejs",
-      "express"
-    ],
-    "dependencies": {
-      "express": "^4.17.1"
-    }
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend",
+  "author": "lgcanto <lucascanto@poli.ufrj.com>",
+  "main": "src/app.js",
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript"
+  ],
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "tsc": "tsc"
   }
+}

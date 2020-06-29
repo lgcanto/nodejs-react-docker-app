@@ -15,4 +15,7 @@ COPY --chown=node:node . .
 # for running container on local machine
 EXPOSE 8080
 
+# PRODUCTION
 CMD [ "node", "src/app.js" ]
+# DEVELOPMENT
+# ENTRYPOINT ["tail", "-f", "/dev/null"]
